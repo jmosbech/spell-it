@@ -1,12 +1,28 @@
 {
-  "name": "amount-text",
+  "name": "spell-it",
   "version": "0.0.1",
-  "description": "Outputs amounts as words",
-  "main": "index.js",
+  "description": "Writes out numbers as words in English, French or Danish",
+  "keywords": [
+    "amount",
+    "text",
+    "danish",
+    "french"
+  ],
+  "main": "lib/index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
-  "repository": "",
-  "author": "Jonas Mosbech",
+  "devDependencies": {
+      "mocha": "~1.9.0",
+      "chai": "~1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmosbech/spell-it.git"
+  },
+  "author": {
+    "name": "Jonas Mosbech",
+    "email": "jonas@mosbech.net"
+  },
   "license": "MIT"
 }
