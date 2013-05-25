@@ -1,0 +1,12 @@
+{
+  "name": "amount-text",
+  "version": "0.0.1",
+  "description": "Outputs amounts as words",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "",
+  "author": "Jonas Mosbech",
+  "license": "MIT"
+}
