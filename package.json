@@ -1,7 +1,7 @@
 {
   "name": "spell-it",
   "version": "0.1.0",
-  "description": "Writes out numbers as words in English, French or Danish",
+  "description": "Writes out numbers as words in English, French, Indonesian or Danish",
   "keywords": [
     "amount",
     "text",
@@ -9,6 +9,7 @@
     "french"
   ],
   "main": "lib/index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "mocha"
   },

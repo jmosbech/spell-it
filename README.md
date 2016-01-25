@@ -1,5 +1,5 @@
 # spell-it #
-Small Node.js module that writes out numbers as words in English, French or Danish.
+Small Node.js module that writes out numbers as words in English, French, Indonesian or Danish.
 
 ## Usage ##
 Install:
