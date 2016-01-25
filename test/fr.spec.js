@@ -2,7 +2,7 @@
 // http://french.about.com/od/vocabulary/ss/numbers_5.htm
 
 var expect = require('chai').expect;
-var spellFactory = require('spell-it');
+var spellFactory = require('../lib/index.js');
 
 describe('spell-it in French', function(){
 	var spell;

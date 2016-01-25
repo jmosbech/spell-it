@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var spellFactory = require('spell-it');
+var spellFactory = require('../lib/index.js');
 
 describe('spell-it in Bahasa', function(){
 	var spell;
