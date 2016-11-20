@@ -6,7 +6,8 @@
     "amount",
     "text",
     "danish",
-    "french"
+    "french",
+    "indonesian"
   ],
   "main": "lib/index.js",
   "bin": "./cli.js",
@@ -15,7 +16,7 @@
   },
   "devDependencies": {
     "chai": "^3.4.1",
-    "mocha": "^2.3.4"
+    "mocha": "^3.1.2"
   },
   "repository": {
     "type": "git",
