@@ -1,13 +1,14 @@
 {
   "name": "spell-it",
   "version": "0.2.0",
-  "description": "Writes out numbers as words in English, French, Indonesian or Danish",
+  "description": "Writes out numbers as words in English, French, Dutch, Indian English, Indonesian or Danish",
   "keywords": [
     "amount",
     "text",
     "danish",
     "french",
-    "indonesian"
+    "indonesian",
+    "dutch"
   ],
   "main": "lib/index.js",
   "bin": "./cli.js",
