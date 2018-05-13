@@ -46,9 +46,24 @@ describe('spell-it in French', function(){
 		expect(output).to.equal('cent');
 	});
 
-	it('should handle multiples of hundred', function(){
+	it('should pluralize "cents" for multiples of hundred less than 1000', function(){
 		var output = spell(200);
 		expect(output).to.equal('deux-cents');
+	});
+
+	it('should handle multiples of hundred with zero "cents"', function(){
+		var output = spell(2000);
+		expect(output).to.equal('deux-mille');
+	});
+
+	it('should handle multiples of hundred with one "cent"', function(){
+		var output = spell(1100);
+		expect(output).to.equal('mille-cent');
+	});
+
+	it('should pluralize "cents" for multiples of hundred with more than one "cent"', function(){
+		var output = spell(1200);
+		expect(output).to.equal('mille-deux-cents');
 	});
 
 	it('should return "quatre-vingt-deux" when input is 182', function(){
