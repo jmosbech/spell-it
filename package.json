@@ -1,6 +1,6 @@
 {
   "name": "spell-it",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Writes out numbers as words in English, French, Dutch, Indian English, Indonesian or Danish",
   "keywords": [
     "amount",
