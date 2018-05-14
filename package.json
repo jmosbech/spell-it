@@ -16,8 +16,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "mocha": "^3.1.2"
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
   },
   "repository": {
     "type": "git",
